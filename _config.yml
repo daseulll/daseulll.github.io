@@ -36,15 +36,13 @@ author:
 nav:
   Home:
     - '/'
-  categories:
-    - '/all/'
-    - { TIL(Today_I_Learned):'/blog/categories/#til'}
-
-
-  # Blog:
-  #   - '/blog/'
-  #   - { Categories: '/blog/categories/' }
-  #   - { Tags: '/blog/tags/' }
+  # categories:
+  #   - '/all/'
+  #   - { TIL(Today_I_Learned):'/blog/categories/#til'}
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
   About:
     - '/about/'
   Github Project:
