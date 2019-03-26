@@ -41,11 +41,20 @@ window 환경에서 잘 안되는 것들이 꽤 있어서 힘들 때가 있다.
 만약 codinfox-lanyon 테마를 적용하면 jekyll-paginate 에러가 발생하는 경우가 있는데,
 
 ```
-  gem "jekyll", "~> 3.8.5"
+  gem "jekyll", "~> 3.8.5" (삭제)
   gem "jekyll-paginate"
 ```
 
-Gemfile의 `gem "jekyll"` 아래 줄에 `gem "jekyll-paginate"`를 추가해주고
-`bundle install`후 `jekyll serve`를 하면 나의 경우 해결되었다.
+Gemfile의 `gem "jekyll"`를 삭제하고, 그 아래 줄에 `gem "jekyll-paginate"`를 추가한다.
+
+그리고 `gem "github-pages", group: :jekyll_plugins`가 주석처리 돼있는 것을 해제한다.
+
+`bundle update`후,
+
+`_config.yml` 파일의 gems를 plugins로 바꿔준다.
+
+이렇게 할 경우 잘 해결되었다.
+
+
 <br>
 마크다운 글꼴과 색상도 변경하고 싶은데, 차차 적용해 봐야 겠다.

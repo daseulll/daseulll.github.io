@@ -2,7 +2,7 @@
 layout: post
 title: 1. 파이썬의 자료형 - 숫자형과 문자열
 date:   2019-03-26 16:10
-categories: jekyll
+categories: Python
 ---
 
 > [점프투파이썬](https://wikidocs.net/book/1)으로 파이썬을 복습하며 개인적으로 학습한 것을 기록한 내용입니다.
