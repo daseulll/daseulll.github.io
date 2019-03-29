@@ -14,6 +14,7 @@ window 환경에서 잘 안되는 것들이 꽤 있어서 힘들 때가 있다.
 
 
 **참고
+[마크다운문법](https://wikidocs.net/1678)
 [마크다운 문법1](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 [마크다운 문법2](https://simhyejin.github.io/2016/06/30/Markdown-syntax/#code-blocks)**
 
