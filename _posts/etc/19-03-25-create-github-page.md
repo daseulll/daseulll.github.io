@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "window에서 jekyll로 github-page 만들기"
+title: "windows 10에서 jekyll로 github-page 만들기"
 date:   2019-03-25 23:27:32 +0900
 categories: jekyll
 ---
