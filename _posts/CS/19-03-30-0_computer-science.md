@@ -2,7 +2,7 @@
 layout: post
 title: "[번역] 웹 아키텍쳐 입문"
 date:   2019-03-30 20:53 +0900
-categories: Computer Science
+categories: ComputerScience
 ---
 >[[번역] 웹 아키텍쳐 입문](https://blog.rhostem.com/posts/2018-07-22-web-architecture-101)을 읽고 정리한 내용입니다.
 
